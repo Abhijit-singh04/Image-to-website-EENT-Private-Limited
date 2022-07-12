@@ -1,0 +1,184 @@
+
+@media only screen and (min-width:320px) and (max-width: 450px) {
+.main-container{
+    width: 91%;
+    max-width: unset;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.menu{
+    display: none;
+}
+.navbar-option{
+    justify-content: flex-end;
+}
+.phone-below-header{
+    position: relative;
+    width: 100%;
+    height: 31px;
+    /* =============background-color: #e3e7fa; */
+    background-color: #c7cff6;
+    border-radius: 7px;
+    display: flex;
+
+    align-items: center;
+   
+}
+
+.phone-below-header-image{
+    background-color: bisque;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    position: relative;
+    
+    left: 11px;
+}
+.phone-below-header-image img{
+    position: absolute;
+    left: 0;
+    top: 0; 
+     width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.navbar2{
+    position: relative;
+    top: 26px;
+
+    gap: 100px;
+    height: 102px;
+    overflow: hidden;
+}
+.phone-below-header-content{
+    position: relative;
+    left: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+    display: flex;
+  /* ==========================  justify-content: center; */
+    align-items: center;
+}
+.card1{
+    width: 320px;
+}
+.card-content{
+    width: unset;
+    width: 205px;
+    position: relative;
+    left: 8px;
+}
+.top-content{
+    font-size: 18px;
+    line-height: 1;
+    top: 2px;
+}
+.bottom-content{
+    font-size: 17px;
+    font-weight: 500;
+    bottom: 5px;
+    top: 6px;
+}
+.box-container{
+flex-direction: column;
+gap: 17px;
+justify-content: unset;
+}
+.left{
+    display: none;
+}
+.right{
+    display: none;
+}
+.middle{
+    /* order: 1; */
+    width: 100%;
+    height: 318px;
+}
+.faishion-btn{
+    width: unset;
+    height: unset;
+    font-size: 13px;
+}
+
+.mobile-card{
+
+    top: 58px;
+    width: 100%;
+    height: 500px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    position: relative;
+}
+.mobile-card-1{
+    /* background-color: darkolivegreen; */
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.mobile-card-image{
+    width: 85px;
+    height: 85px;
+    background: url("./image/lemon.jpg");
+    background-size: 85px 85px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18%;
+}
+.mobile-card-content{
+    width: 214px;
+    height: 71px;
+    left: 2px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    position: relative;
+}
+.mobile-card-content-topic{
+       /* position: relative; */
+       font-family: 'Poppins', sans-serif;
+       font-weight: 800;
+       font-size: 14px;
+       line-height: 14px;
+       color: purple;
+        /* top: 5px; */
+}
+.mobile-card-content-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    position: relative;
+    top: 11px;
+}
+.search-box input[type=text] {
+   font-size: 8px;
+   padding: 6px;
+    
+  }
+} 
+
+
+@media only screen and (min-width:450px) and (max-width: 1000px) {
+    .menu{
+        display: none;
+    }
+    .card-content {
+   
+        display: none;
+    }
+    .navbar-option{
+        justify-content: flex-end;
+    }
+}
